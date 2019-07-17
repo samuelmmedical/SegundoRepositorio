@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    let preco = window.prompt('informe o valor do produto');
+    preco = parseFloat (preco);
+    let desconto = window.prompt('Informe o percentual do desconto (0-100)');
+    desconto = parseFloat(desconto);
+    let valoTotal = preco - (preco * desconto/100);
+    document.write('<p>valor do produto<strong>R$'+preco.toFixed(2)+ '</strong</p>');
+    document.write('<p>percentual de desconto<strong>' + desconto. toFixed(2) +'%</strong></p>');
+    document.write('<p>valor total da compra<strong>R$'+valorTotal.toFixed(2)+'</strong></p>');
+    </script>
+</body>
+</html>

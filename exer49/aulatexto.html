@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>interagindo com usuário</title>
+</head>
+<body>
+    <script>
+     let nome = window.prompt('Informe seu nome');
+        document.write(`O nome informdo foi ${nome} trocando o primeiro o do nome ${nome.replace('o','u')}`);
+        document.write('<br>');
+        document.write(`O nome informdo foi ${nome} trocando o todos os "o" do nome ${nome.replace(/o/g,'u')}`);
+    </script>
+</body>
+</html>

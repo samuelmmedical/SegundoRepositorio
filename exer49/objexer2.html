@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    function Pessoa (nome,idade){
+        this.nome = nome;
+        this.idade = idade;
+        return this;
+    }
+    let pessoa = new Pessoa("Gustavo",27);
+    document.write(`O nome informado foi${pessoa.nome}e a idade informada é${pessoa.idade}`);
+    </script>
+</body>
+</html>
